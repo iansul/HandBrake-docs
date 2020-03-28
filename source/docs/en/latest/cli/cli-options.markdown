@@ -47,6 +47,9 @@ If HandBrake is in a different directory than you're in, you can always access i
 
 Remember, Linux and Mac can be configured to be case sensitive. 
 
+<!-- .system-macos -->
+Starting with Mac OS 10.14 (Mojave) Apple added more levels of security, and Mac OS 10.15 (Catalina) they extended that to include restricting access to eternal volumes see [here](https://apple.stackexchange.com/questions/371796/what-is-the-difference-between-full-disk-access-and-files-folders-access-in-ca) for more information. If you want to use HandBrakeCLI from the command line in Terminal (or any other application) to scan external drives you will need to give that application "Full Disk Access" in System Preferences -> Security & Privacy -> Privacy -> Full Disk Access.
+<!-- /.system-macos -->
 
 ## HandBrake Command Line Basics
 
